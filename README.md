@@ -4,6 +4,22 @@
 							***********
 
 
+Quixo est un jeu de strategie à deux joeurs: Il se jouer sur un
+plateau de 25 cases, 5 sur 5. Chaque case peut etre vide, avec 
+un rond ou avec une croix.
+ 
+INSTALL
+-------
+
+Le fichier runArbitre.sh permet de lancer l'arbre, une seule 
+instance de l'arbitre est lancée et les deux joueurs doivent specifier
+le le nom sur lequel le serveur est lancé ainsi que le port sur le quel
+il va ecouter les connexion des joueurs. 
+
+Le fichier install.sh permet de lancer un joueur, les deux joueurs adverses 
+doivent etre lancés sur des hotes différents car l'intelligence tourne sur un
+port specifié en dur dans le code.
+
 1. Pour compiler, executer la commande ci-dessous : 
 ./install.sh serveurArbitre NumPort nomJoueur
   
